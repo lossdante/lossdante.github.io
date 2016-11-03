@@ -1,0 +1,57 @@
+body {
+	background: white;
+}
+
+#h_1 {
+	font-family: Calibri, sans-serif;
+	font-size: 24px;
+}
+
+p {
+	font-family: Castellar, sans-serif;
+	font-weight: 900;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/*ul {
+	color: white;
+	font-family: Calibri, sans-serif;
+	font-size: 24px;
+	text-align: left;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background: rgba(0,0,0,0.6);
+}
+
+*/
+
+/*Some advance skill about the navigation bar, learnt from source on the internet*/
+
+ul {
+    font-family: Calibri, sans-serif;
+	font-size: 24px;
+    list-style-type: none;  /*remove the bullet point*/
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #eee;
+}
+
+li {
+    float: left;
+}
+
+li a {
+      display: block;
+      color: black;
+      text-align: center;
+      padding: 14px 24px;
+      text-decoration: none;  /*remove the underline*/    
+} 
+
+li a:hover {
+    background-color: #ddd;
+}
