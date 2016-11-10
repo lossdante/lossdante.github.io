@@ -1,0 +1,63 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono);
+@import url(https://fonts.googleapis.com/css?family=Eczar);
+
+body {
+	    background: white;
+}
+
+#h_1 {
+	     font-family: 'Montserrat', sans-serif;
+	     font-size: 30px;
+       /*font-variant: small-caps;*/
+}
+
+#p_1 {
+	    font-family: 'Eczar', sans-serif;
+	    font-size: 30px;
+	    text-align: center;
+      margin: 1em;
+}
+
+#p_2 {
+      font-family: 'Space Mono', monospace;
+      font-size: 20px;
+      padding:0em 3em 0em 3em;
+}
+
+strong {
+        font-weight: 900;
+        font-size: 24px;
+
+}
+
+/*Some advance skill about the navigation bar, learnt from source on the internet*/
+
+ul {
+    font-family: Calibri, sans-serif;
+	  font-size: 24px;
+    list-style-type: none;  /*remove the bullet point*/
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+li {
+    display: inline;
+}
+
+li a {
+      display: inline-block;
+      /*background-color: #7980AC;*/
+      color: black;
+      width: 100px;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;  /*remove the underline*/    
+} 
+
+li a:hover {
+            background-color: #0C2A44;
+            color: #D3E3F2;
+}
