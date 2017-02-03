@@ -1,0 +1,149 @@
+
+@import url(https://fonts.googleapis.com/css?family=Montserrat);
+@import url(https://fonts.googleapis.com/css?family=Space+Mono);
+@import url(https://fonts.googleapis.com/css?family=Eczar);
+
+body {
+	    background: white;
+      font-size: 20px;
+}
+
+header {
+	     width: 200px;
+       margin: .5em auto;
+       background-color: rgba(000,000,110,.5);
+       color: white;
+       font-family: 'Montserrat', sans-serif;
+	     font-size: 15px;
+       text-align: center;
+       /*font-variant: small-caps;*/
+}
+
+
+#img1 {
+     display: block;   
+     width: 95%;
+     margin: auto; 
+     padding: 1%;
+}
+
+section {
+         font-family: 'Space Mono', monospace;
+         font-size: 1em;
+         padding: 1%;
+}
+
+
+#column1{
+         float: left;
+         background-color: #02D7FF;
+         padding: 3%;
+         width: 20%;
+}
+
+#column2{
+         float: right;
+         background-color: #02D7FF;
+         padding: 3%;
+         width: 65%;
+}
+
+#img2 {
+       display: block;
+       float: right;
+       width: 70%;
+       padding: 1%;
+}
+
+
+
+footer {
+      display: block;
+      background-color: #FF557E;
+      width: 80%;
+      margin: 1em auto;
+      border-bottom: 2px black dashed;
+      font-family: 'Eczar', sans-serif;
+      font-size: 30px;
+      text-align: center;
+}
+
+strong {
+        font-weight: 900;
+        font-size: 1.2em;
+
+}
+
+/*Some advance skill about the navigation bar, learnt from source on the internet*/
+
+nav {
+    font-family: Calibri, sans-serif;
+	  font-size: 1.2em;
+    float: left;
+}
+
+nav a {
+    display: inline-block;
+    padding: 0.25em;
+    /*background-color: #7980AC;*/
+    color: black;
+    width: 4em;
+    text-align: center;
+    text-decoration: none;  /*remove the underline*/    
+} 
+
+a:hover {
+          background-color: #0C2A44;
+          color: #D3E3F2;
+}
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+@media only screen and (max-width: 768px) {
+  #column1, #column2 {
+    float: none;
+    width: auto;
+    padding: 4%;
+    margin: 2%;
+  }
+  #img2 {
+    float: none;
+    width: 100%;
+    padding: 1%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  body {
+    font-size: 15px;
+  }
+
+  header {
+    font-size: 10px;
+    margin: auto;
+  }
+
+  footer {
+    font-size: 20px;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+
+  nav {
+    display: block;
+    text-align: center;
+    float: none;
+  }
+   nav a{
+    margin: auto;
+   }
+
+}
